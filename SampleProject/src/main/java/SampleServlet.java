@@ -28,7 +28,7 @@ public class SampleServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // TODO Auto-generated method stub
-        response.getWriter().append("Hi Everyone").append(request.getContextPath());
+        response.getWriter().append("Hello Everyone").append(request.getContextPath());
     }
 
     /**
